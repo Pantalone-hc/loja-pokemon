@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap");
+
+:root {
+  --fundo: #f3efe7;
+  --papel: #fffdf8;
+  --tinta: #1d2133;
+  --tinta-suave: #5b5f72;
+  --vermelho: #d64034;
+  --amarelo: #f2c14e;
+  --borda: #ddd5c6;
+  --raio: 10px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: "Rubik", system-ui, sans-serif;
+  background: var(--fundo);
+  color: var(--tinta);
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+  margin: 0 0 0.6em;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.etiqueta {
+  display: inline-block;
+  font-family: "Space Mono", monospace;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 2px 8px;
+  border: 1px solid var(--tinta);
+  border-radius: 4px;
+  align-self: flex-start;
+}
+
+.conteudo-markdown h2 {
+  margin-top: 1.6em;
+  font-size: 1.3rem;
+}
+
+.conteudo-markdown blockquote {
+  margin: 1.5em 0;
+  padding: 12px 18px;
+  background: #fbefc8;
+  border-left: 4px solid var(--amarelo);
+}
+
+.conteudo-markdown ul {
+  padding-left: 1.2em;
+}

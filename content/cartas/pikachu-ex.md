@@ -1,7 +1,7 @@
 ---
 title: "Pikachu ex - Fagulhas Impetuosas"
 date: "2026-11-03"
-preco: 74.90
+preco: 874.90
 colecao: "Fagulhas Impetuosas"
 tipo: "Elétrico"
 estado: "NM (quase nova)"

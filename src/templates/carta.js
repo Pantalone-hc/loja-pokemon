@@ -96,7 +96,7 @@ const CartaTemplate = ({ data }) => {
               <dt>Estado</dt>
               <dd>{frontmatter.estado}</dd>
               <dt>Estoque</dt>
-              <dd>{frontmatter.estoque} un.</dd>
+              <dd>{frontmatter.estoque > 0 ? `${frontmatter.estoque} un.` : "Esgotado"}</dd>
               <dt>Atualizado</dt>
               <dd>{frontmatter.date}</dd>
             </Detalhes>

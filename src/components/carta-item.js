@@ -54,7 +54,9 @@ const CartaItem = ({ carta }) => {
       <div className="info">
         <span className="etiqueta">{colecao}</span>
         <h3>{title}</h3>
-        {estoque <= 2 && <span className="esgotando">Últimas {estoque} unidade(s)</span>}
+        {estoque === 0 && <span className="esgotando">Esgotado</span>}
+        {estoque === 1 && <span className="esgotando">Última unidade</span>}
+        {estoque === 2 && <span className="esgotando">Últimas 2 unidades</span>}
         <span className="preco">{formatarPreco(preco)}</span>
       </div>
     </Card>
